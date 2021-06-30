@@ -14,7 +14,7 @@ current_dir = Path(os.path.dirname(os.path.abspath(__file__)))
 
 
 def read_all_credentials():
-    with open(current_dir.joinpath("new_client_creds.json")) as cred_f:
+    with open(current_dir.joinpath("client_creds.json")) as cred_f:
         return json.load(cred_f)
 
 
